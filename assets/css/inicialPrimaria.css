@@ -1,0 +1,386 @@
+header{
+    width: 100%;
+    background-color: rgb(33, 182, 234);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0rem;
+}
+header .cabecera{
+    background-color: white;
+    border-radius: 50px;
+    padding: 0.5rem 10rem;
+    position: fixed; margin-top:5px; z-index:99999;
+}
+header .cabecera #siemens{
+    padding: 0rem 5rem;
+    min-width: 200px;
+}
+header .cabecera #fundacion{
+    padding: 0rem 5rem;
+    min-width: 200px;
+}
+@media screen and (max-width:1275px){
+    header .cabecera{
+        background-color: white;
+        border-radius: 50px;
+        padding: 0.5rem 5rem;
+    }
+    header .cabecera #siemens{
+        padding: 0rem 2rem;
+        min-width: 200px;
+    }
+    header .cabecera #fundacion{
+        padding: 0rem 2rem;
+        min-width: 200px;
+    }
+}
+@media screen and (max-width:930px){
+    header .cabecera{
+        background-color: white;
+        border-radius: 50px;
+        padding: 0.5rem 2rem;
+    }
+}
+@media screen and (max-width:830px){
+    header .cabecera{
+        background-color: white;
+        border-radius: 50px;
+        padding: 0.5rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header .cabecera #siemens{
+        display: flex;
+        position: relative;
+        max-width: 300px;
+
+    }
+    header .cabecera #fundacion{
+        display: flex;
+        position: relative;
+        max-width: 200px;
+
+    }
+}
+@media screen and (max-width:590px){
+    header .cabecera{
+        flex-direction: column;
+    }
+}
+section{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+section .titulo{
+    text-align: center;
+    background-color: rgb(33, 182, 234);
+    font: bold;
+    color: white;
+    font-family: 'Passion One', cursive;
+    padding: 2rem 0rem;
+}
+section .texto{
+    color: rgb(77, 77, 77);
+    text-align: justify;
+    font-family: 'Roboto Flex', sans-serif;
+    padding: 2rem 13rem;
+    min-width: 350px;
+}
+section .texto .h2{
+    text-align: center;
+}
+section .texto h2{
+    font-family: 'Passion One', cursive;
+}
+@media screen and (max-width:1250px) {
+    section .texto{
+        text-align: justify;
+        padding: 0rem 8rem;
+        min-width: 700px;
+    }
+}
+@media screen and (max-width:720px) {
+    section .texto{
+        text-align: justify;
+        padding: 0rem 4rem;
+        min-width: 350px;
+    }
+}
+section .cartas{
+    width: 100%;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+
+}
+section .cartaslogo{
+    width: 100%;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+
+}
+section .cartaslogo .card{
+    margin: 15px 30px;
+    display: block;
+    align-items : center;
+    height:429px;
+    width: 315px;
+    border: 0ch;
+}
+section .cartaslogo .card .h3{
+    color: rgb(77, 77, 77);
+    font-family: 'Passion One', cursive;
+}
+section .cartaslogo .card p{
+    flex-direction: column;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    display: flex;
+    position: relative;
+    top: 45%;
+}
+section .cartaslogo .card #energia{
+    background-image: url(../../assets/img/newic1Recurso53.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center  center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height:429px;
+    width: 315px;
+}
+section .cartaslogo .card #medio{
+    background-image: url(../../assets/img/newicRecurso51.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center  center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height:429px;
+    width: 315px;
+}
+section .cartaslogo .card #salud{
+    background-image: url(../../assets/img/newicRecurso50.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center  center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height:429px;
+    width: 315px;
+}
+
+section .cartas .card{
+    font-family: 'Roboto Flex', sans-serif;
+    margin: 0px 43px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height:294px;
+    width: 288px;
+    border: 0ch;
+}section .cartas .card .card-title{
+    width: 200px;
+}
+
+section .cartas .card img{
+    display: flex;
+    width: 100px;
+}
+
+section .cartas .card #uno{
+    background-image: url(../../assets/img/circuloRecurso21.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center  center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    height:291px;
+    width: 288px;
+}
+section .cartas .card #dos{
+    background-image: url(../../assets/img/circulo2Recurso22.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center  center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    height:291px;
+    width: 288px;
+}
+section .cartas .card #tres{
+    background-image: url(../../assets/img/circulo3Recurso24.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center  center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    height:291px;
+    width: 288px;
+}
+@media screen and (max-width:904px) {
+    section .cartas .card{
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        border: 0ch;
+    }
+    section .cartas{
+        width: 100%;
+        display: flex;
+        align-items : center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    section .cartaslogo{
+        width: 100%;
+        display: flex;
+        align-items : center;
+        justify-content: center;
+        flex-direction: column;
+        border: 0ch;
+    }
+    section .cartaslogo .card{
+        margin: 15px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:429px;
+        width: 315px;
+        border: 0ch;
+    }
+}
+
+.footer{
+    padding-top: 2rem;
+   /*  min-width: 200px;
+    margin-top: 1rem; */
+    background-color: rgb(33, 182, 234);
+    color: #fff;
+}
+ .footer .grupo1{
+    font-family: 'Roboto Flex', sans-serif;
+    width: 100%;
+    display:flex;
+    padding-bottom:2rem ;
+
+ }
+ .footer .grupo1 .box1{
+    padding: 0rem 2rem;
+ }
+ .footer .grupo1 .box2{
+    background-color: rgb(33, 182, 234);
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    grid-gap: 0px ;
+    flex-direction: column;
+ }
+ .footer .grupo1 .box2 .caja1{
+     
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 0px ;
+ }
+ .footer .grupo1 .box2 .caja2{
+    padding: 10px;
+    margin-top: 50px;
+ }
+ .footer .grupo1 .box2 .caja2 .textoF{
+    text-align: center;
+ }
+
+
+ .footer .grupo1 .box1 .title{
+    font: bold;
+    padding-left: 2rem;
+ }
+ .footer .grupo1 .box1 p{
+     margin:0% ;
+     padding: 0%;
+ }
+ .footer .grupo1 .box1 .contenido{
+     padding-left: 10rem;
+     padding-top: 0%;
+ }
+ .footer .grupo1 .box2{
+     display: flex;
+     align-items: center;
+ }
+ .footer .grupo1 .box2 .btn{
+    display: flex;
+    text-transform: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 90px;
+    background-color: #fff;
+    color:rgb(33, 182, 234);
+    float: right;
+    margin-right: -20px;
+}
+ .footer .grupo1 .box2 a{
+    margin: 0rem 5rem;
+    align-items: center;
+}
+.footer .grupo1 .box2 .bi-youtube{color: red;}
+
+@media screen and (max-width:1054px){
+    .footer .grupo1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+       /*  display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px ; */
+        /* padding-bottom:2rem ;
+        padding-left: 0,8rem; */
+     }
+     .footer .grupo1 .box2 .caja1 .btn{
+        
+        margin:auto;
+        
+    }
+    .footer .grupo1 .box1 img{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .footer .grupo1 .box2 .caja2{
+        margin-top: -10px;
+        text-align: center;
+    }
+     
+}
+@media screen and (max-width:590px) {
+    .footer .grupo1 .box2 .caja1{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+ .footer .grupo2{
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+ }
